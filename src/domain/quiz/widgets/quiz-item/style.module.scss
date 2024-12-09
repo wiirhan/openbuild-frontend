@@ -1,0 +1,18 @@
+.QuizItem {
+  display: block;
+
+  &-main {
+    flex-grow: 1;
+  }
+
+  &-extra {
+    flex-shrink: 0;
+    align-items: center;
+  }
+
+  &-extraInner {
+    display: inline-flex;
+    align-items: center;
+    font-size: 14px;
+  }
+}

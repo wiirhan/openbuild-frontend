@@ -5,7 +5,7 @@
 
 ## Introduction
 
-This project is a part of [OpenBuild Ecosystem](https://openbuildxyz.github.io/eco/).
+This project is a part of [OpenBuild Ecosystem](https://openbuildxyz.github.io/eco/) and hosts the front-end codebase of [OpenBuild.xyz](https://openbuild.xyz).
 
 ## Contributing
 

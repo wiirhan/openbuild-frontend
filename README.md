@@ -1,3 +1,5 @@
-# OpenBuild Front-end Project
+# Front-end of [OpenBuild.xyz](https://openbuild.xyz/)
 
-若要加入开发，请先阅读《[开发规范](manual/spec.md)》，然后确保本地 Node.js 版本号 >= 20.0.0。
+This project is a part of [OpenBuild Ecosystem](https://openbuildxyz.github.io/eco/).
+
+Contributions are welcome! But before starting to build, please read the [manual](manual/getting-started/en.md).

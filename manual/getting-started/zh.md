@@ -7,9 +7,10 @@
 在开始大展身手之前，为保证能顺利地参与共建及异步协作，请按顺序通读下列所有内容，已看过并熟悉了解的可跳过：
 
 - [行为规范](https://github.com/openbuildxyz/.github/blob/main/CODE_OF_CONDUCT.md)
+- [协作指南](../collaboration/zh.md)
 - [环境准备](#环境准备)
 - [技术栈](#技术栈)
-- [开发规范](../spec/zh.md)
+- [开发要求](../spec/zh.md)
 
 来让我们开始吧！
 
@@ -37,23 +38,26 @@
 
 整个项目以 [React](https://react.dev/)、[Next.js](https://nextjs.org/) 作为底层依赖，其他用到的库主要有：
 
-| 类别 | 库/框架 |
-| --- | --- |
-| 工具 | [Lodash](https://lodash.com/)  |
-|  | [validator.js](https://github.com/validatorjs/validator.js)  |
-|  | [Nano ID](https://zelark.github.io/nano-id-cc/)  |
-| 数据处理 | [React Redux](https://react-redux.js.org/)  |
-|  | [React Hook Form](https://www.react-hook-form.com/)  |
-| UI | [Tailwind CSS](https://tailwindcss.com/)  |
-|  | [Heroicons](https://heroicons.com/)  |
-|  | [Headless UI](https://headlessui.com/v1)  |
-|  | [daisyUI](https://daisyui.com/)  |
-|  | [styled-components](https://styled-components.com/)  |
-|  | [NextUI](https://nextui.org/)  |
-|  | [ByteMD](https://bytemd.js.org/)  |
-|  | [SurveyJS](https://surveyjs.io/)  |
-| 动画 | [aos](https://michalsnik.github.io/aos/)  |
-|  | [Animate.css](https://animate.style/)  |
-|  | [Framer Motion](https://www.framer.com/motion/)  |
-| Web3 | [RainbowKit](https://www.rainbowkit.com/)  |
-|  | [Wagmi](https://wagmi.sh/)  |
+- 工具
+  - [Lodash](https://lodash.com/)
+  - [validator.js](https://github.com/validatorjs/validator.js)
+  - [Nano ID](https://zelark.github.io/nano-id-cc/)
+- 数据处理
+  - [React Redux](https://react-redux.js.org/)
+  - [React Hook Form](https://www.react-hook-form.com/)
+- UI
+  - [Tailwind CSS](https://tailwindcss.com/)
+  - [Heroicons](https://heroicons.com/)
+  - [Headless UI](https://headlessui.com/v1)
+  - [daisyUI](https://daisyui.com/)
+  - [styled-components](https://styled-components.com/)
+  - [NextUI](https://nextui.org/)
+  - [ByteMD](https://bytemd.js.org/)
+  - [SurveyJS](https://surveyjs.io/)
+- 动画
+  - [aos](https://michalsnik.github.io/aos/)
+  - [Animate.css](https://animate.style/)
+  - [Framer Motion](https://www.framer.com/motion/)
+- Web3
+  - [RainbowKit](https://www.rainbowkit.com/)
+  - [Wagmi](https://wagmi.sh/)

@@ -10,16 +10,12 @@ Before you start making a difference, to ensure smooth participation and asynchr
 
 If you have seen and are familiar with them, you can skip:
 
-- [Code of Conduct](#code-of-conduct)
+- [Code of Conduct](https://github.com/openbuildxyz/.github/blob/main/CODE_OF_CONDUCT.md)
 - [Environment Setup](#environment-setup)
 - [Technology Stack](#technology-stack)
 - [Development Spec](../spec/en.md)
 
 Let's get started!
-
-## Code of Conduct
-
-Adhere to the OpenBuild Ecosystem Code of Conduct (to be written).
 
 ## Environment Setup
 
@@ -44,3 +40,26 @@ Execute `cp .env.example .env` or `cp .env.example .env.local` in the root direc
 After setting the corresponding environment variables as needed, execute the `start` command in npm scripts (e.g., `pnpm start`) to start the application locally and begin debugging!
 
 ## Technology Stack
+
+The entire project relies on [React](https://react.dev/), [Next.js](https://nextjs.org/) as the underlying dependencies, and other libraries mainly used include:
+
+| Category | Library/Framework |
+| --- | --- |
+| Utilities | [Lodash](https://lodash.com/) |
+|  | [validator.js](https://github.com/validatorjs/validator.js) |
+|  | [Nano ID](https://zelark.github.io/nano-id-cc/) |
+| Data Handling | [React Redux](https://react-redux.js.org/) |
+|  | [React Hook Form](https://www.react-hook-form.com/) |
+| UI | [Tailwind CSS](https://tailwindcss.com/) |
+|  | [Heroicons](https://heroicons.com/) |
+|  | [Headless UI](https://headlessui.com/v1) |
+|  | [daisyUI](https://daisyui.com/) |
+|  | [styled-components](https://styled-components.com/) |
+|  | [NextUI](https://nextui.org/) |
+|  | [ByteMD](https://bytemd.js.org/) |
+|  | [SurveyJS](https://surveyjs.io/) |
+| Animation | [aos](https://michalsnik.github.io/aos/) |
+|  | [Animate.css](https://animate.style/) |
+|  | [Framer Motion](https://www.framer.com/motion/) |
+| Web3 | [RainbowKit](https://www.rainbowkit.com/) |
+|  | [Wagmi](https://wagmi.sh/) |

@@ -10,8 +10,8 @@ Before you start making a difference, to ensure smooth participation and asynchr
 
 If you have seen and are familiar with them, you can skip:
 
-- [Code of Conduct](https://github.com/openbuildxyz/.github/blob/main/CODE_OF_CONDUCT.md)
-- [Asynchrony Collaboration](../collaboration/en.md)
+- [Code of Conduct](https://openbuildxyz.github.io/eco/guides/code-of-conduct/)
+- [Asynchrony Collaboration](https://github.com/openbuildxyz/.github/blob/main/docs/collaboration/en.md)
 - [Environment Setup](#environment-setup)
 - [Technology Stack](#technology-stack)
 - [Development Spec](../spec/en.md)

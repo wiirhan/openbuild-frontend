@@ -6,8 +6,8 @@
 
 在开始大展身手之前，为保证能顺利地参与共建及异步协作，请按顺序通读下列所有内容，已看过并熟悉了解的可跳过：
 
-- [行为规范](https://github.com/openbuildxyz/.github/blob/main/CODE_OF_CONDUCT.md)
-- [协作指南](../collaboration/zh.md)
+- [行为规范](https://openbuildxyz.github.io/eco/zh/guides/code-of-conduct/)
+- [协作指南](https://github.com/openbuildxyz/.github/blob/main/docs/collaboration/zh.md)
 - [环境准备](#环境准备)
 - [技术栈](#技术栈)
 - [开发要求](../spec/zh.md)

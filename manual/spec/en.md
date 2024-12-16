@@ -8,7 +8,7 @@ To ensure project quality and maintainability, strict adherence is required.
 
 Although this project is developed based on Next.js, the file organization avoids using its default recommended directory structure, as well as the common directory structure seen in other front-end projects.
 
-Instead, a 'modular' directory structure guided by domain-driven design principles is adopted, with some compatibility adaptations made according to the limitations of Next.js:
+Instead, a "modular" directory structure guided by domain-driven design principles is adopted, with some compatibility adaptations made according to the limitations of Next.js:
 
 ```
 project/src
@@ -61,7 +61,7 @@ To avoid confusing dependency relationships and circular dependencies, there are
 1. For folders `src/*`, use relative paths when the `*` parts are the same;
 2. When different, use `@/*` for the `shared` folder, and `#/*` for others;
 3. Use `public/*` for files under the `public` folder;
-4. The 'purity' order of `src/*` folders (excluding legacy directory structures) is `shared` > `domain` > `entry` > `app`, with 'purer' folders prohibited from referencing 'impurer' ones.
+4. The "purity" order of `src/*` folders (excluding legacy directory structures) is `shared` > `domain` > `entry` > `app`, with "purer" folders prohibited from referencing "impurer" ones.
 
 Detailed reference rules for `src/*` folders (excluding legacy directory structures) are as follows:
 

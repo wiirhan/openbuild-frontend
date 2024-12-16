@@ -42,7 +42,7 @@ After setting the corresponding environment variables as needed, execute the `st
 
 ## Technology Stack
 
-The entire project relies on [React](https://react.dev/), [Next.js](https://nextjs.org/) as the underlying dependencies, and other libraries mainly used include:
+The entire project relies on [React](https://react.dev/), [Next.js](https://nextjs.org/), [Tailwind CSS](https://tailwindcss.com/) as the underlying dependencies, and other libraries mainly used include:
 
 - Utilities
   - [Lodash](https://lodash.com/)
@@ -52,7 +52,6 @@ The entire project relies on [React](https://react.dev/), [Next.js](https://next
   - [React Redux](https://react-redux.js.org/)
   - [React Hook Form](https://www.react-hook-form.com/)
 - UI
-  - [Tailwind CSS](https://tailwindcss.com/)
   - [Heroicons](https://heroicons.com/)
   - [Headless UI](https://headlessui.com/v1)
   - [daisyUI](https://daisyui.com/)

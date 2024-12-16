@@ -36,7 +36,7 @@
 
 ## 技术栈
 
-整个项目以 [React](https://react.dev/)、[Next.js](https://nextjs.org/) 作为底层依赖，其他用到的库主要有：
+整个项目以 [React](https://react.dev/)、[Next.js](https://nextjs.org/)、[Tailwind CSS](https://tailwindcss.com/) 作为底层依赖，其他用到的库主要有：
 
 - 工具
   - [Lodash](https://lodash.com/)
@@ -46,7 +46,6 @@
   - [React Redux](https://react-redux.js.org/)
   - [React Hook Form](https://www.react-hook-form.com/)
 - UI
-  - [Tailwind CSS](https://tailwindcss.com/)
   - [Heroicons](https://heroicons.com/)
   - [Headless UI](https://headlessui.com/v1)
   - [daisyUI](https://daisyui.com/)

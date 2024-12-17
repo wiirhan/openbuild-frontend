@@ -10,3 +10,9 @@ This project is a part of [OpenBuild Ecosystem](https://openbuildxyz.github.io/e
 ## Contributing
 
 Contributions are welcome! But before starting to build, please read the [manual](manual/getting-started/en.md).
+
+## License
+
+Source code is released under the [Apache License 2.0](./LICENSE) license, and documents are shared under the [CC BY-NC-SA 4.0](./LICENSE-docs) license.
+
+Copyright (c) 2024-present, OpenBuild

@@ -1,9 +1,24 @@
+/*
+ * Copyright 2024 OpenBuild
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
 const fs = require('fs');
 const path = require('path');
 
 const { resolveRootPath } = require('../helper');
 
-// Apache 2.0 License Header
 const apacheLicenseHeader = `/*
  * Copyright 2024 OpenBuild
  *
@@ -21,13 +36,11 @@ const apacheLicenseHeader = `/*
  */
 \n`;
 
-// Function to check if a file contains the Apache 2.0 License Header
 function containsLicenseHeader(filePath) {
   const content = fs.readFileSync(filePath, 'utf8');
   return content.startsWith('/*') && content.includes('Licensed under the Apache License, Version 2.0');
 }
 
-// Function to add the Apache 2.0 License Header to a file if it doesn't already have it
 function addLicenseHeader(filePath) {
   if (containsLicenseHeader(filePath)) {
     console.log(`Skipping ${filePath} (already contains Apache 2.0 License Header)`);
@@ -41,7 +54,6 @@ function addLicenseHeader(filePath) {
   console.log(`Added Apache 2.0 License Header to ${filePath}`);
 }
 
-// Function to recursively traverse a directory and process .js files
 function traverseDirectory(directoryPath) {
   if (directoryPath.includes('node_modules')) {
     return;
@@ -54,7 +66,7 @@ function traverseDirectory(directoryPath) {
 
     if (file.isDirectory()) {
       traverseDirectory(filePath);
-    } else if (file.isFile() && path.extname(file.name) === '.js') {
+    } else if (file.isFile() && ['.js', '.scss'].includes(path.extname(file.name))) {
       addLicenseHeader(filePath);
     }
   });

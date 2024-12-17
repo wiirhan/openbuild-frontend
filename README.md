@@ -5,14 +5,14 @@
 
 ## Introduction
 
-This project is a part of [OpenBuild Ecosystem](https://openbuildxyz.github.io/eco/) and hosts the front-end codebase of [OpenBuild.xyz](https://openbuild.xyz).
+This project is a part of [OpenBuild Ecosystem](https://openbuildxyz.github.io/eco/), and hosts the front-end codebase of [OpenBuild.xyz](https://openbuild.xyz).
 
 ## Contributing
 
-Contributions are welcome! But before starting to build, please read the [manual](manual/getting-started/en.md).
+Contributions are welcome! But before starting to build, please read the [contributing guide](.github/contributing/en.md).
 
 ## License
 
-Source code is released under the [Apache License 2.0](./LICENSE) license, and documents are shared under the [CC BY-NC-SA 4.0](./LICENSE-docs) license.
+Source code is released under the [Apache 2.0](./LICENSE) license, and documents are shared under the [CC BY-NC-SA 4.0](./LICENSE-docs) license.
 
 Copyright (c) 2024-present, OpenBuild

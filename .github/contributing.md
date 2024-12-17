@@ -1,6 +1,6 @@
-English | [简体中文](./zh.md)
+English | [简体中文](./guides/contributing/zh.md)
 
-# Getting Started
+# Contributing Guide
 
 We're delighted to have you here!
 
@@ -14,31 +14,9 @@ If you have seen and are familiar with them, you can skip:
 - [Asynchrony Collaboration](https://github.com/openbuildxyz/.github/blob/main/docs/collaboration/en.md)
 - [Environment Setup](#environment-setup)
 - [Technology Stack](#technology-stack)
-- [Development Spec](../spec/en.md)
+- [Development Spec](./guides/spec/en.md)
 
 Let's get started!
-
-## Environment Setup
-
-Ensure that your local Node.js version matches the one specified in the `engines` field of the `package.json` file.
-
-Install dependencies using a package manager in the root directory, and it is recommended to use [pnpm](https://pnpm.io).
-
-Execute `cp .env.example .env` or `cp .env.example .env.local` in the root directory to properly inject the environment variables needed for running the application:
-
-| Variable Name | Purpose | Required |
-| --- | --- | --- |
-| `NEXT_PUBLIC_API_BASE_URL` |  | Yes |
-| `NEXT_PUBLIC_APP_URL` |  | Yes |
-| `NEXTAUTH_URL` |  | Yes |
-| `NEXTAUTH_SECRET` |  | Yes |
-| `NEXT_PUBLIC_GITHUB_ID` |  | When using GitHub account authorization |
-| `NEXT_PUBLIC_GOOGLE_ID` |  | When using Google account authorization |
-| `NEXT_PUBLIC_ASPECTA_ID` |  | When displaying data from [Aspecta](https://aspecta.id) |
-| `NEXT_PUBLIC_GA_ID` |  | For traffic statistics |
-| `NEXT_PUBLIC_GA_KEY` |  | - |
-
-After setting the corresponding environment variables as needed, execute the `start` command in npm scripts (e.g., `pnpm start`) to start the application locally and begin debugging!
 
 ## Technology Stack
 
@@ -66,3 +44,25 @@ The entire project relies on [React](https://react.dev/), [Next.js](https://next
 - Web3
   - [RainbowKit](https://www.rainbowkit.com/)
   - [Wagmi](https://wagmi.sh/)
+
+## Environment Setup
+
+Ensure that your local Node.js version matches the one specified in the `engines` field of the `package.json` file.
+
+Install dependencies using a package manager in the root directory, and it is recommended to use [pnpm](https://pnpm.io).
+
+Execute `cp .env.example .env` or `cp .env.example .env.local` in the root directory to properly inject the environment variables needed for running the application:
+
+| Variable Name | Purpose | Required |
+| --- | --- | --- |
+| `NEXT_PUBLIC_API_BASE_URL` |  | Yes |
+| `NEXT_PUBLIC_APP_URL` |  | Yes |
+| `NEXTAUTH_URL` |  | Yes |
+| `NEXTAUTH_SECRET` |  | Yes |
+| `NEXT_PUBLIC_GITHUB_ID` |  | When using GitHub account authorization |
+| `NEXT_PUBLIC_GOOGLE_ID` |  | When using Google account authorization |
+| `NEXT_PUBLIC_ASPECTA_ID` |  | When displaying data from [Aspecta](https://aspecta.id) |
+| `NEXT_PUBLIC_GA_ID` |  | For traffic statistics |
+| `NEXT_PUBLIC_GA_KEY` |  | - |
+
+After setting the corresponding environment variables as needed, execute the `start` command in npm scripts (e.g., `pnpm start`) to start the application locally and begin debugging!

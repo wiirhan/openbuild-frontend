@@ -9,7 +9,7 @@ This project is a part of [OpenBuild Ecosystem](https://openbuildxyz.github.io/e
 
 ## Contributing
 
-Contributions are welcome! But before starting to build, please read the [contributing guide](.github/contributing/en.md).
+Contributions are welcome! But before starting to build, please read the [contributing guide](.github/contributing.md).
 
 ## License
 

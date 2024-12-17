@@ -1,4 +1,4 @@
-[English](./en.md) | 简体中文
+[English](./readme.md) | 简体中文
 
 # 引子
 

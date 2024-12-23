@@ -40,6 +40,7 @@ export function HomeMain({data}) {
       duration: 800, // values from 0 to 3000, with step 50ms
     })
   }, [])
+
   return (
     <div className="mt-14 [&>div]:px-6 md:[&>div]:px-11 bg-white" >
       <div data-aos="fade-up">
@@ -76,10 +77,8 @@ export function HomeMain({data}) {
               <span className="max-md:hidden absolute text-xs bg-primary right-[-53px] top-[-40px] p-[2px]">Builder</span>
             </button>
           </Link>
-
           <div className="absolute ml-[900px] w-[152px] h-[152px] bg-green rounded-full hidden md:flex justify-center items-center">
-            <Spin/>
-
+            <Spin />
             <div className="w-[80px] h-[80px] bg-home-green-ball-gradient-l-r rounded-full  flex justify-center items-center">
               <div className="w-[52px] h-[52px] bg-[#f8f8f8] rounded-full  flex justify-center items-center">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
@@ -90,7 +89,6 @@ export function HomeMain({data}) {
             </div>
           </div>
         </div>
-
       </div>
       <BuilderWay data={data?.items} />
       <MarqueeContent data={data?.ecosystem} />
